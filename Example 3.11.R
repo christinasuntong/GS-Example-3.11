@@ -37,3 +37,5 @@ plot(p.out.1)
 p.out.2 <- pwr.p.test(h=ES.h(p1 = 0.8, p2 = 0.6), n=100, sig.level=0.05)
 p.out.2
 # The power of this test is 99.3%.
+
+
