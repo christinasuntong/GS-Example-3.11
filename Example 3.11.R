@@ -32,7 +32,7 @@ library(pwr)
 p.out.1 <- pwr.p.test(h=ES.h(p1 = 0.8, p2 = 0.6), n=100, sig.level=0.05, alternative="greater")
 p.out.1
 # The power of our test is about 99.7%. We specified 'alternative="greater"' since we assumed the patients were cured with larger probabilities.
-plot(p.out)
+plot(p.out.1)
 # This time, sample size will make the more conservative "two-sided" assumption with leaving "alternative" argument out of the function.
 p.out.2 <- pwr.p.test(h=ES.h(p1 = 0.8, p2 = 0.6), n=100, sig.level=0.05)
 p.out.2
